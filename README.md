@@ -31,20 +31,13 @@ A production-ready example of a multi-tenant application built with Next.js 15, 
 
 ### Installation
 
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/vercel/platforms.git
-   cd platforms
-   ```
-
-2. Install dependencies:
+1. Install dependencies:
 
    ```bash
    pnpm install
    ```
 
-3. Set up environment variables:
+2. Set up environment variables:
    Create a `.env.local` file in the root directory with:
 
    ```
@@ -52,13 +45,13 @@ A production-ready example of a multi-tenant application built with Next.js 15, 
    KV_REST_API_TOKEN=your_redis_token
    ```
 
-4. Start the development server:
+3. Start the development server:
 
    ```bash
    pnpm dev
    ```
 
-5. Access the application:
+4. Access the application:
    - Main site: http://localhost:3000
    - Admin panel: http://localhost:3000/admin
    - Tenants: http://[tenant-name].localhost:3000
